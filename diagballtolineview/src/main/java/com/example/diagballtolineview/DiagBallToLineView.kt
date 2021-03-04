@@ -207,4 +207,13 @@ class DiagBallToLineView(ctx : Context) : View(ctx) {
             }
         }
     }
+
+    companion object {
+
+        fun create(activity : Activity) : DiagBallToLineView {
+            val view : DiagBallToLineView = DiagBallToLineView(activity)
+            activity.setContentView(view)
+            return view
+        }
+    }
 }
