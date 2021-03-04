@@ -41,7 +41,7 @@ fun Canvas.drawDiagBallToLine(scale : Float, w : Float, h : Float, paint : Paint
         save()
         scale(1f - 2 * j, 1f - 2 * j)
         drawLine(0f, 0f, w * 0.5f * sf1, h * 0.5f * sf1, paint)
-        drawCircle((w / 2 - r) * sf3, (h / 2 - r) * sf3, r * sizeFactor * sf2, paint)
+        drawCircle((w / 2) * sf3, (h / 2) * sf3, r * sf2, paint)
         restore()
     }
     restore()
