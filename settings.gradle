@@ -1,0 +1,3 @@
+include ':diagballtolineview'
+include ':app'
+rootProject.name = "LinkedDiagBallToLineView"
